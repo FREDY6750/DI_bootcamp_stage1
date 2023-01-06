@@ -1,0 +1,10 @@
+basket = ["Banana", "Apples", "Oranges", "Blueberries"]
+basket.remove("Banana")
+basket.remove("Blueberries")
+basket.append("Kiwi")
+basket.insert(0,"Apples")
+a=basket.count("Apples")
+print(basket)
+print(a)
+basket.clear()
+print(basket)
